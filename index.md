@@ -1,0 +1,39 @@
+---
+title: Using ImpressJS with Slidify
+author: R Sian
+mode: selfcontained
+framework: impressjs
+knit: slidify::knit2slides
+
+--- .slide x:-1000 y:-1500
+
+<head lang="zh-TW">
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'></link>
+
+<style type="text/css">
+@font-face {
+font-family:SelfFont;
+src:url(assets/SetoFont.TTF);
+}
+
+q, span {
+font-family:SelfFont;
+}
+</style>
+</head>
+
+<q>1. </q>
+
+--- .slide x:0 y:-1500
+
+<q>2. </q>
+
+<span class='sss'> 他帥 </span>
+
+![google](assets/img/temp.jpg)
+
+<img id='google' src="assets/img/temp.jpg">
+
+--- .slide x:1000 y:-1500
+
+<q>3. </q>
